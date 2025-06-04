@@ -9,6 +9,9 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -27,6 +30,7 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  padding: 8px;
 }
 
 button {
@@ -44,5 +48,17 @@ a {
 }
 
 ul {
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  align-items: center;
   list-style-type: none;
+}
+
+.left-side, 
+.right-side {
+  gap: 8px;
+  display: flex;
+  align-items: center;
 }
